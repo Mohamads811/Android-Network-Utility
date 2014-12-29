@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Network Example</string>
+
+    <string name="action_panda_website">Panda-OS Website</string>
+
+    <string name="main_activity_title">Network Utility</string>
+    <string name="main_activity_empty_textview">-</string>
+    <string name="main_activity_network_status">Network Status: </string>
+    <string name="main_activity_network_name">Network Name: </string>
+    <string name="main_activity_network_gateway">Network Gateway: </string>
+
+</resources>
