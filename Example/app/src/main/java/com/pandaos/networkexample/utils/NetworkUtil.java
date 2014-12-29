@@ -56,7 +56,11 @@ public class NetworkUtil {
 
     public static String getMobileNetworkName (Context context) {
         TelephonyManager tm = (TelephonyManager)context.getSystemService(Context.TELEPHONY_SERVICE);
-        return tm.getNetworkOperatorName();
+        String networkName = tm.getNetworkOperatorName();
+        if (networkName != null) {
+            return networkName;
+        }
+        return "";
     }
 	
 	public static String getGateway (Context context) {
